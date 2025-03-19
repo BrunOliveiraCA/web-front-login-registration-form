@@ -24,6 +24,8 @@ body {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
 
+/* Form box */
+
 .form-box {
     position: absolute;
     right: 0;
@@ -114,4 +116,9 @@ form {
     color: #333;
     text-decoration: none;
     margin: 0px;
+}
+
+/* Registration box */
+.form-box.register {
+    visibility: hidden;
 }
